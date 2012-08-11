@@ -1,0 +1,374 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9B4FB18F15CE9340009C81E3 /* UISplitViewController+DetailViewSwapper.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B4FB18E15CE9340009C81E3 /* UISplitViewController+DetailViewSwapper.m */; };
+		9B7C5FE315D0002D00F7D072 /* BaseDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B7C5FDC15D0002D00F7D072 /* BaseDetailViewController.m */; };
+		9B7C5FE415D0002D00F7D072 /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B7C5FDE15D0002D00F7D072 /* DetailViewController.m */; };
+		9B7C5FE515D0002D00F7D072 /* DetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9B7C5FDF15D0002D00F7D072 /* DetailViewController.xib */; };
+		9B7C5FE615D0002D00F7D072 /* PrologueViewControllerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B7C5FE115D0002D00F7D072 /* PrologueViewControllerViewController.m */; };
+		9B7C5FE715D0002D00F7D072 /* PrologueViewControllerViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9B7C5FE215D0002D00F7D072 /* PrologueViewControllerViewController.xib */; };
+		9B7C5FEF15D0003E00F7D072 /* MasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B7C5FEA15D0003E00F7D072 /* MasterViewController.m */; };
+		9B7C5FF015D0003E00F7D072 /* MasterViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9B7C5FEB15D0003E00F7D072 /* MasterViewController.xib */; };
+		9B7C5FF115D0003E00F7D072 /* Story1MenuViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B7C5FED15D0003E00F7D072 /* Story1MenuViewController.m */; };
+		9B7C5FF215D0003E00F7D072 /* Story1MenuViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9B7C5FEE15D0003E00F7D072 /* Story1MenuViewController.xib */; };
+		9B7C5FF615D0008900F7D072 /* Scene1AViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B7C5FF415D0008900F7D072 /* Scene1AViewController.m */; };
+		9B7C5FF715D0008900F7D072 /* Scene1AViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9B7C5FF515D0008900F7D072 /* Scene1AViewController.xib */; };
+		9B7C5FFB15D001E400F7D072 /* Scene1BViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B7C5FF915D001E400F7D072 /* Scene1BViewController.m */; };
+		9B7C5FFC15D001E400F7D072 /* Scene1BViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9B7C5FFA15D001E400F7D072 /* Scene1BViewController.xib */; };
+		9B7C600015D0028200F7D072 /* Scene1CViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B7C5FFE15D0028200F7D072 /* Scene1CViewController.m */; };
+		9B7C600115D0028200F7D072 /* Scene1CViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9B7C5FFF15D0028200F7D072 /* Scene1CViewController.xib */; };
+		9B7C600515D0030E00F7D072 /* Scene1DViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B7C600315D0030D00F7D072 /* Scene1DViewController.m */; };
+		9B7C600615D0030E00F7D072 /* Scene1DViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9B7C600415D0030D00F7D072 /* Scene1DViewController.xib */; };
+		9BAD205A15CE48AA001CE17A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9BAD205915CE48AA001CE17A /* UIKit.framework */; };
+		9BAD205C15CE48AA001CE17A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9BAD205B15CE48AA001CE17A /* Foundation.framework */; };
+		9BAD205E15CE48AA001CE17A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9BAD205D15CE48AA001CE17A /* CoreGraphics.framework */; };
+		9BAD206415CE48AA001CE17A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 9BAD206215CE48AA001CE17A /* InfoPlist.strings */; };
+		9BAD206615CE48AA001CE17A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BAD206515CE48AA001CE17A /* main.m */; };
+		9BAD206A15CE48AA001CE17A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BAD206915CE48AA001CE17A /* AppDelegate.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		9B4FB18D15CE9340009C81E3 /* UISplitViewController+DetailViewSwapper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UISplitViewController+DetailViewSwapper.h"; sourceTree = "<group>"; };
+		9B4FB18E15CE9340009C81E3 /* UISplitViewController+DetailViewSwapper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UISplitViewController+DetailViewSwapper.m"; sourceTree = "<group>"; };
+		9B7C5FDB15D0002D00F7D072 /* BaseDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseDetailViewController.h; sourceTree = "<group>"; };
+		9B7C5FDC15D0002D00F7D072 /* BaseDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseDetailViewController.m; sourceTree = "<group>"; };
+		9B7C5FDD15D0002D00F7D072 /* DetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
+		9B7C5FDE15D0002D00F7D072 /* DetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
+		9B7C5FDF15D0002D00F7D072 /* DetailViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DetailViewController.xib; sourceTree = "<group>"; };
+		9B7C5FE015D0002D00F7D072 /* PrologueViewControllerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PrologueViewControllerViewController.h; sourceTree = "<group>"; };
+		9B7C5FE115D0002D00F7D072 /* PrologueViewControllerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PrologueViewControllerViewController.m; sourceTree = "<group>"; };
+		9B7C5FE215D0002D00F7D072 /* PrologueViewControllerViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PrologueViewControllerViewController.xib; sourceTree = "<group>"; };
+		9B7C5FE915D0003E00F7D072 /* MasterViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MasterViewController.h; sourceTree = "<group>"; };
+		9B7C5FEA15D0003E00F7D072 /* MasterViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MasterViewController.m; sourceTree = "<group>"; };
+		9B7C5FEB15D0003E00F7D072 /* MasterViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MasterViewController.xib; sourceTree = "<group>"; };
+		9B7C5FEC15D0003E00F7D072 /* Story1MenuViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Story1MenuViewController.h; sourceTree = "<group>"; };
+		9B7C5FED15D0003E00F7D072 /* Story1MenuViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Story1MenuViewController.m; sourceTree = "<group>"; };
+		9B7C5FEE15D0003E00F7D072 /* Story1MenuViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = Story1MenuViewController.xib; sourceTree = "<group>"; };
+		9B7C5FF315D0008900F7D072 /* Scene1AViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Scene1AViewController.h; sourceTree = "<group>"; };
+		9B7C5FF415D0008900F7D072 /* Scene1AViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Scene1AViewController.m; sourceTree = "<group>"; };
+		9B7C5FF515D0008900F7D072 /* Scene1AViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = Scene1AViewController.xib; sourceTree = "<group>"; };
+		9B7C5FF815D001E400F7D072 /* Scene1BViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Scene1BViewController.h; sourceTree = "<group>"; };
+		9B7C5FF915D001E400F7D072 /* Scene1BViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Scene1BViewController.m; sourceTree = "<group>"; };
+		9B7C5FFA15D001E400F7D072 /* Scene1BViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = Scene1BViewController.xib; sourceTree = "<group>"; };
+		9B7C5FFD15D0028200F7D072 /* Scene1CViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Scene1CViewController.h; sourceTree = "<group>"; };
+		9B7C5FFE15D0028200F7D072 /* Scene1CViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Scene1CViewController.m; sourceTree = "<group>"; };
+		9B7C5FFF15D0028200F7D072 /* Scene1CViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = Scene1CViewController.xib; sourceTree = "<group>"; };
+		9B7C600215D0030D00F7D072 /* Scene1DViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Scene1DViewController.h; sourceTree = "<group>"; };
+		9B7C600315D0030D00F7D072 /* Scene1DViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Scene1DViewController.m; sourceTree = "<group>"; };
+		9B7C600415D0030D00F7D072 /* Scene1DViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = Scene1DViewController.xib; sourceTree = "<group>"; };
+		9BAD205515CE48AA001CE17A /* MasterDetail.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MasterDetail.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9BAD205915CE48AA001CE17A /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		9BAD205B15CE48AA001CE17A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		9BAD205D15CE48AA001CE17A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		9BAD206115CE48AA001CE17A /* MasterDetail-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MasterDetail-Info.plist"; sourceTree = "<group>"; };
+		9BAD206315CE48AA001CE17A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		9BAD206515CE48AA001CE17A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		9BAD206715CE48AA001CE17A /* MasterDetail-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MasterDetail-Prefix.pch"; sourceTree = "<group>"; };
+		9BAD206815CE48AA001CE17A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		9BAD206915CE48AA001CE17A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9BAD205215CE48AA001CE17A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9BAD205A15CE48AA001CE17A /* UIKit.framework in Frameworks */,
+				9BAD205C15CE48AA001CE17A /* Foundation.framework in Frameworks */,
+				9BAD205E15CE48AA001CE17A /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9B7C5FDA15D0002D00F7D072 /* Details */ = {
+			isa = PBXGroup;
+			children = (
+				9B7C5FDB15D0002D00F7D072 /* BaseDetailViewController.h */,
+				9B7C5FDC15D0002D00F7D072 /* BaseDetailViewController.m */,
+				9B7C5FDD15D0002D00F7D072 /* DetailViewController.h */,
+				9B7C5FDE15D0002D00F7D072 /* DetailViewController.m */,
+				9B7C5FDF15D0002D00F7D072 /* DetailViewController.xib */,
+				9B7C5FE015D0002D00F7D072 /* PrologueViewControllerViewController.h */,
+				9B7C5FE115D0002D00F7D072 /* PrologueViewControllerViewController.m */,
+				9B7C5FE215D0002D00F7D072 /* PrologueViewControllerViewController.xib */,
+				9B7C5FF315D0008900F7D072 /* Scene1AViewController.h */,
+				9B7C5FF415D0008900F7D072 /* Scene1AViewController.m */,
+				9B7C5FF515D0008900F7D072 /* Scene1AViewController.xib */,
+				9B7C5FF815D001E400F7D072 /* Scene1BViewController.h */,
+				9B7C5FF915D001E400F7D072 /* Scene1BViewController.m */,
+				9B7C5FFA15D001E400F7D072 /* Scene1BViewController.xib */,
+				9B7C5FFD15D0028200F7D072 /* Scene1CViewController.h */,
+				9B7C5FFE15D0028200F7D072 /* Scene1CViewController.m */,
+				9B7C5FFF15D0028200F7D072 /* Scene1CViewController.xib */,
+				9B7C600215D0030D00F7D072 /* Scene1DViewController.h */,
+				9B7C600315D0030D00F7D072 /* Scene1DViewController.m */,
+				9B7C600415D0030D00F7D072 /* Scene1DViewController.xib */,
+			);
+			path = Details;
+			sourceTree = "<group>";
+		};
+		9B7C5FE815D0003E00F7D072 /* Menus */ = {
+			isa = PBXGroup;
+			children = (
+				9B7C5FE915D0003E00F7D072 /* MasterViewController.h */,
+				9B7C5FEA15D0003E00F7D072 /* MasterViewController.m */,
+				9B7C5FEB15D0003E00F7D072 /* MasterViewController.xib */,
+				9B7C5FEC15D0003E00F7D072 /* Story1MenuViewController.h */,
+				9B7C5FED15D0003E00F7D072 /* Story1MenuViewController.m */,
+				9B7C5FEE15D0003E00F7D072 /* Story1MenuViewController.xib */,
+			);
+			path = Menus;
+			sourceTree = "<group>";
+		};
+		9BAD204A15CE48AA001CE17A = {
+			isa = PBXGroup;
+			children = (
+				9BAD205F15CE48AA001CE17A /* MasterDetail */,
+				9BAD205815CE48AA001CE17A /* Frameworks */,
+				9BAD205615CE48AA001CE17A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9BAD205615CE48AA001CE17A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9BAD205515CE48AA001CE17A /* MasterDetail.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9BAD205815CE48AA001CE17A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9BAD205915CE48AA001CE17A /* UIKit.framework */,
+				9BAD205B15CE48AA001CE17A /* Foundation.framework */,
+				9BAD205D15CE48AA001CE17A /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		9BAD205F15CE48AA001CE17A /* MasterDetail */ = {
+			isa = PBXGroup;
+			children = (
+				9B7C5FE815D0003E00F7D072 /* Menus */,
+				9B7C5FDA15D0002D00F7D072 /* Details */,
+				9BAD206815CE48AA001CE17A /* AppDelegate.h */,
+				9BAD206915CE48AA001CE17A /* AppDelegate.m */,
+				9BAD206015CE48AA001CE17A /* Supporting Files */,
+				9B4FB18D15CE9340009C81E3 /* UISplitViewController+DetailViewSwapper.h */,
+				9B4FB18E15CE9340009C81E3 /* UISplitViewController+DetailViewSwapper.m */,
+			);
+			path = MasterDetail;
+			sourceTree = "<group>";
+		};
+		9BAD206015CE48AA001CE17A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				9BAD206115CE48AA001CE17A /* MasterDetail-Info.plist */,
+				9BAD206215CE48AA001CE17A /* InfoPlist.strings */,
+				9BAD206515CE48AA001CE17A /* main.m */,
+				9BAD206715CE48AA001CE17A /* MasterDetail-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9BAD205415CE48AA001CE17A /* MasterDetail */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9BAD207915CE48AA001CE17A /* Build configuration list for PBXNativeTarget "MasterDetail" */;
+			buildPhases = (
+				9BAD205115CE48AA001CE17A /* Sources */,
+				9BAD205215CE48AA001CE17A /* Frameworks */,
+				9BAD205315CE48AA001CE17A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MasterDetail;
+			productName = MasterDetail;
+			productReference = 9BAD205515CE48AA001CE17A /* MasterDetail.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9BAD204C15CE48AA001CE17A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0430;
+			};
+			buildConfigurationList = 9BAD204F15CE48AA001CE17A /* Build configuration list for PBXProject "MasterDetail" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 9BAD204A15CE48AA001CE17A;
+			productRefGroup = 9BAD205615CE48AA001CE17A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9BAD205415CE48AA001CE17A /* MasterDetail */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9BAD205315CE48AA001CE17A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9BAD206415CE48AA001CE17A /* InfoPlist.strings in Resources */,
+				9B7C5FE515D0002D00F7D072 /* DetailViewController.xib in Resources */,
+				9B7C5FE715D0002D00F7D072 /* PrologueViewControllerViewController.xib in Resources */,
+				9B7C5FF015D0003E00F7D072 /* MasterViewController.xib in Resources */,
+				9B7C5FF215D0003E00F7D072 /* Story1MenuViewController.xib in Resources */,
+				9B7C5FF715D0008900F7D072 /* Scene1AViewController.xib in Resources */,
+				9B7C5FFC15D001E400F7D072 /* Scene1BViewController.xib in Resources */,
+				9B7C600115D0028200F7D072 /* Scene1CViewController.xib in Resources */,
+				9B7C600615D0030E00F7D072 /* Scene1DViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9BAD205115CE48AA001CE17A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9BAD206615CE48AA001CE17A /* main.m in Sources */,
+				9BAD206A15CE48AA001CE17A /* AppDelegate.m in Sources */,
+				9B4FB18F15CE9340009C81E3 /* UISplitViewController+DetailViewSwapper.m in Sources */,
+				9B7C5FE315D0002D00F7D072 /* BaseDetailViewController.m in Sources */,
+				9B7C5FE415D0002D00F7D072 /* DetailViewController.m in Sources */,
+				9B7C5FE615D0002D00F7D072 /* PrologueViewControllerViewController.m in Sources */,
+				9B7C5FEF15D0003E00F7D072 /* MasterViewController.m in Sources */,
+				9B7C5FF115D0003E00F7D072 /* Story1MenuViewController.m in Sources */,
+				9B7C5FF615D0008900F7D072 /* Scene1AViewController.m in Sources */,
+				9B7C5FFB15D001E400F7D072 /* Scene1BViewController.m in Sources */,
+				9B7C600015D0028200F7D072 /* Scene1CViewController.m in Sources */,
+				9B7C600515D0030E00F7D072 /* Scene1DViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		9BAD206215CE48AA001CE17A /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9BAD206315CE48AA001CE17A /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9BAD207715CE48AA001CE17A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		9BAD207815CE48AA001CE17A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9BAD207A15CE48AA001CE17A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MasterDetail/MasterDetail-Prefix.pch";
+				INFOPLIST_FILE = "MasterDetail/MasterDetail-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		9BAD207B15CE48AA001CE17A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MasterDetail/MasterDetail-Prefix.pch";
+				INFOPLIST_FILE = "MasterDetail/MasterDetail-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9BAD204F15CE48AA001CE17A /* Build configuration list for PBXProject "MasterDetail" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9BAD207715CE48AA001CE17A /* Debug */,
+				9BAD207815CE48AA001CE17A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9BAD207915CE48AA001CE17A /* Build configuration list for PBXNativeTarget "MasterDetail" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9BAD207A15CE48AA001CE17A /* Debug */,
+				9BAD207B15CE48AA001CE17A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9BAD204C15CE48AA001CE17A /* Project object */;
+}
